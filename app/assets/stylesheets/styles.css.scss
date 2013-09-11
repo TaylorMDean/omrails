@@ -1,6 +1,7 @@
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
-$btnPrimaryBackground: purple;
+$baseFontFamily: Helvetica;
+@import url(http://fonts.googleapis.com/css?family-Helvetica);
+
+$navbarBackgroundHighlight: blue;
 
 @import 'bootstrap';
 body{
@@ -11,10 +12,10 @@ body{
 
 .navbar-inner{
     @include box-shadow(none !important);
-    border: 0;
+    border: 1;
 }
 
-.footer{
+.footer {
     margin-top: 50px;
     color: $grayLight;
     a{
